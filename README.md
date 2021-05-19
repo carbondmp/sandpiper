@@ -25,13 +25,6 @@ This document describes the use cases that this proposalwill support, the princi
 
 At the heart of this proposal is a method of verifying the relationship between different participants that are accessing and storing data by expanding the use of SSL certificates and headers. This structure fits well into the existing HTTP specification and also allows for the existing trust in certificates with impartial SSLcertificate authorities. Such SSL providers already provided extended checks on legal entities when issuing Extended Validation Certificates.
 
-## Pitfalls
-
-TODO More Discussion
-
- * Complex configuration?
- * Might be ‘silently failing’ (expected vs actual ifmisconfigured) 
- * Requires browsers to implement the updated standard
 
 ## The Sandbox
 
@@ -188,9 +181,6 @@ The following sequence diagrams illustrate a 1p cors sandbox use case for analyt
 ![](003.png)
 
 
-## Glossary
-
-Property Owner (vs Origin) etc - TODO
 
 ## Use Cases
 ![](003.png)
@@ -236,3 +226,15 @@ The sandbox can take user preferences into account by applying network or domain
 For example a user might not want a specific 3p within his sandbox or might want a longer ttl for a particular network’s logon details.
 
 
+## Glossary
+
+Property Owner (vs Origin) etc - TODO
+
+
+## Pitfalls
+
+TODO More Discussion
+
+ * Complex configuration?
+ * Might be ‘silently failing’ (expected vs actual ifmisconfigured) 
+ * Requires browsers to implement the updated standard
