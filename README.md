@@ -5,9 +5,6 @@
 
 ### Alistair McLean : CDO,  alistair@carbonrmp.com
 
-
-# D R A F T
-
 ## Abstract
 
 The proposal describes a privacy preserving method to define a context that allows data storage amongst a network of certified partners. It employs additional headers in the HTTP protocol with security validation through SSL Certificates for secure validation.
