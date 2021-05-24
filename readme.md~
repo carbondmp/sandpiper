@@ -162,9 +162,7 @@ but we can currently do this by using the organisation attribute as a placeholde
 
 As described above both the server and browser extract the sandbox name from the certificate and match it with the cors sandbox controlheaders.
 
-### The Secure Sandbox
-
-The additional benefit of this mechanism is that data within the sandbox can be encrypted using the certificate so that only members of the sandbox are able to decrypt the data.
+The additional benefit of this mechanism is that data within the sandbox can be encrypted so that only members of the sandbox are able to decrypt the data.
 
 ## User Preferences
 
